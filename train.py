@@ -344,7 +344,7 @@ if __name__ == '__main__':
     parser.add_argument('--clf_pdrop', type=float, default=0.1)
     parser.add_argument('--l2', type=float, default=0.01)
     parser.add_argument('--vector_l2', action='store_true')
-    parser.add_argument('--n_gpu', type=int, default=4)
+    parser.add_argument('--n_gpu', type=int, default=1)
     parser.add_argument('--opt', type=str, default='adam')
     parser.add_argument('--afn', type=str, default='gelu')
     parser.add_argument('--lr_schedule', type=str, default='warmup_linear')
